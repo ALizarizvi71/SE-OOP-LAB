@@ -1,0 +1,46 @@
+#include<iostream> using namespace std;
+class Employes{
+public: string name;
+string jobtitle; float salary;
+int
+displayinfo){
+string name;
+string jobtitle;
+float salary; cout<<"Name :"<<name; cout<<"JobTitle :"‹<jobtitle; cout<<"Salary :"<<salary;
+int main(K
+Employes emp; emp. name="Aliza";
+emp. jobtitle="software engineer"; emp-salary=900000;
+cout<<"Name : "<<emp.name<<endl; cout‹<"Jobtitle : "<<emp jobtitle<<endl; cout«<"Salary : "«<emp.salary«endl;
+int displayinfo(Employes emp);
+return 0;
+
+#include ‹iostream>
+#include < string> using namespace std;
+class Car {
+private:
+string name; int topSpeed;
+string modelName;
+Car(string n, int ts, string mn) : name(n), topSpeed(ts), modelName(mn) ‹}
+void display() {
+"Car Name: " « name <<endl;
+cout «< "Top Speed: " «< topSpeed «<"km/h"<<endl; cout « "Model Name: " «< modelName «<endl;
+};
+int main() {
+Car car ("Tesla", 250, "Model S");
+car display);
+return 0;
+
+#include < string> using namespace std;
+class Laptop {
+private:
+string brand, model, serial, color; double price, processorSpeed, screenSize; int RAM;
+public:
+void upgradeRAM(int newRAM) { RAM = newRAM; }
+void dispLay andst «brand‹send1;
+cout « "Model :" <<model<<endl; cout « "Serial :"<<serial<<endl; cout <<
+"Color:"«<color<<endl;
+cout «"Price: $"<<price‹<endl; cout «"Processor Speed: "<<processorSpeed<<endl; cout «< "RAM:" << RAM <<endl; cout « "Screen Size : " <<screenSize‹<endl;
+int main) {
+Laptop laptop("Dell", "XPS 13", "123456", "Silver", 10000, 3.6, 8, 13.3); laptop display(); laptop.upgradeRAM(16);
+cout « "After RAM Upgrade:" <<endl; laptop.display);
+return 0; }
